@@ -13,8 +13,7 @@ REPEAT_MARKER_PATTERN = r"(?i)\(\s*x\s*\d+\s*\)"
 GENIUS_PATTERNS = [
     r"(?im)^\d+\s*Contributors?.*$",         
     r"(?m)^.*?Lyrics\s*$",                     
-    r"(?i)\bEmbed\b",                          
-    r"(?i)You might also like",
+    r"(?i)\bEmbed\b",
     r"(?m)^\d+$",                              # stray view-count lines
 ]
 
